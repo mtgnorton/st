@@ -12,7 +12,7 @@ function GrabImage($url,$filename="",$class) {
 	$filename='./Public/photo_head/'.$class.'/'.$filename.'.jpg';
 	if (file_exists($filename)) {
 		$filename 	= iconv('gb2312', 'utf-8', $filename);
-		return $filename;
+		return substr($filename,1,strlen($filename));
 	}
 	if($url=="") return false; 
 
@@ -32,7 +32,7 @@ function GrabImage($url,$filename="",$class) {
 	fwrite($fp2,$img); 
 	fclose($fp2); 
 	$filename 	= iconv('gb2312', 'utf-8', $filename);
-	return $filename; 
+	return substr($filename,1,strlen($filename));
 } 
 		
 			
