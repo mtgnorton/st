@@ -1,0 +1,69 @@
+[ 2016-04-15T12:37:14+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_teacher` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sm_teacher_course` [ RunTime:0.0050s ]
+SQL: SELECT `tname` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cname` FROM `sm_teacher_course` WHERE ( tid=080135 )  [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-15T12:51:03+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0050s ]
+SQL: SELECT `sname` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cname`,`tname` FROM `sm_student_course` WHERE ( sid=1208010126 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 216 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-15T12:51:04+08:00 ] ::1 /studentMange/Public/index_select_course/follow.js
+ERR: 无法加载控制器:Public
+
+[ 2016-04-15T12:51:27+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0070s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='计算机图形学B(双语)' AND tname='史操' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-15T12:51:32+08:00 ] ::1 /studentMange/Public/index_select_course/follow.js
+ERR: 无法加载控制器:Public
+
+[ 2016-04-15T12:52:04+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='计算机图形学B(双语)' AND tname='史操' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-15T12:55:07+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/35/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=35 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot; onclick=&quot;clear_content(&amp;#39;student&amp;#39;)&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;','1208010126','35','周章毅','1460696107','0','课前') [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=35 ) [ RunTime:0.0010s ]
+
+[ 2016-04-15T12:57:24+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='编译原理' AND tname='宫生文' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-15T12:57:28+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+

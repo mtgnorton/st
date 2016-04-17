@@ -1,0 +1,192 @@
+[ 2016-04-16T19:55:27+08:00 ] ::1 /studentMange/index.php/Teacher/Course/send_content/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT `sid` FROM `sm_student_course` WHERE ( cname='UNIX程序设计' )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1332527405 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: class_data E:\xampp0\htdocs\studentMange\Application\Common\Common\function.php 第 60 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\xampp0\htdocs\studentMange\Application\Common\Common\function.php 第 60 行.
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1291868759 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1329336283 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1149219358 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1026780394 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1105457189 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1006482357 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1282933618 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1033075038 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1295597992 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053360562 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1251973479 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1374575127 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1363374916 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1265826702 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1299802764 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1145715381 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1309288530 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1184209070 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053435647 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1070705247 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1392758265 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1160331970 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1289466032 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1301817550 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1103104519 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1317973387 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053911187 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1150996374 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1368130313 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1008359487 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1014816816 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1126193224 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1363850455 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1030497113 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1372247486 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1099863340 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1006344700 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1315032549 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1208010126 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `sm_ttask` (`title`,`content`,`course`,`tid`,`tname`,`start_time`,`total_number`,`complete_number`,`status`,`type`) VALUES ('第三次作业','&lt;p&gt;第三次作业&lt;/p&gt;','UNIX程序设计','80135','曹玲','1460807727','40','0','0','课前') [ RunTime:0.0030s ]
+
+[ 2016-04-16T19:55:37+08:00 ] ::1 /studentMange/index.php/Teacher/Course/send_content/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT `sid` FROM `sm_student_course` WHERE ( cname='UNIX程序设计' )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1332527405 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: class_data E:\xampp0\htdocs\studentMange\Application\Common\Common\function.php 第 60 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\xampp0\htdocs\studentMange\Application\Common\Common\function.php 第 60 行.
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1291868759 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1329336283 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1149219358 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1026780394 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1105457189 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1006482357 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1282933618 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1033075038 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1295597992 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053360562 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1251973479 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1374575127 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1363374916 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1265826702 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1299802764 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1145715381 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1309288530 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1184209070 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053435647 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1070705247 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1392758265 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1160331970 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1289466032 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1301817550 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1103104519 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1317973387 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053911187 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1150996374 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1368130313 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1008359487 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1014816816 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1126193224 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1363850455 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1030497113 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1372247486 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1099863340 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1006344700 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1315032549 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1208010126 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `sm_ttask` (`title`,`content`,`course`,`tid`,`tname`,`start_time`,`total_number`,`complete_number`,`status`,`type`) VALUES ('第四次次作业','&lt;p&gt;第四次作业&lt;/p&gt;','UNIX程序设计','80135','曹玲','1460807737','40','0','0','课前') [ RunTime:0.0000s ]
+
+[ 2016-04-16T19:55:45+08:00 ] ::1 /studentMange/index.php/Teacher/Course/send_content/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT `sid` FROM `sm_student_course` WHERE ( cname='UNIX程序设计' )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1332527405 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: class_data E:\xampp0\htdocs\studentMange\Application\Common\Common\function.php 第 60 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given E:\xampp0\htdocs\studentMange\Application\Common\Common\function.php 第 60 行.
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1291868759 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1329336283 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1149219358 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1026780394 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1105457189 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1006482357 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1282933618 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1033075038 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1295597992 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053360562 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1251973479 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1374575127 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1363374916 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1265826702 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1299802764 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1145715381 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1309288530 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1184209070 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053435647 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1070705247 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1392758265 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1160331970 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1289466032 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1301817550 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1103104519 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1317973387 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1053911187 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1150996374 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1368130313 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1008359487 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1014816816 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1126193224 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1363850455 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1030497113 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1372247486 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1099863340 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1006344700 )  [ RunTime:0.0010s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1315032549 )  [ RunTime:0.0000s ]
+SQL: SELECT `sname`,`class` FROM `sm_student` WHERE ( sid=1208010126 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `sm_ttask` (`title`,`content`,`course`,`tid`,`tname`,`start_time`,`total_number`,`complete_number`,`status`,`type`) VALUES ('第5次次作业','&lt;p&gt;第5次作业&lt;/p&gt;','UNIX程序设计','80135','曹玲','1460807745','40','0','0','课前') [ RunTime:0.0000s ]
+
+[ 2016-04-16T20:02:32+08:00 ] ::1 /studentMange/index.php/Teacher/viewtask/mark_task
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0040s ]
+SQL: UPDATE `sm_stask` SET `mark_reply`='已批改',`is_mark`='1',`score`='55' WHERE ( id=376 ) [ RunTime:0.0000s ]
+
+[ 2016-04-16T20:02:46+08:00 ] ::1 /studentMange/index.php/Teacher/viewtask/mark_task
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `mark_reply`='已批改',`is_mark`='1',`score`='66' WHERE ( id=375 ) [ RunTime:0.0010s ]
+
+[ 2016-04-16T20:03:00+08:00 ] ::1 /studentMange/index.php/Teacher/viewtask/mark_task
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `mark_reply`='已批改',`is_mark`='1',`score`='77' WHERE ( id=374 ) [ RunTime:0.0010s ]
+
+[ 2016-04-16T20:43:22+08:00 ] ::1 /studentMange/index.php/Teacher/scoreview/index/sid/1208010126/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1248:Every derived table must have its own alias
+ [ SQL语句 ] : select * from sm_stask right join (select id as tid ,title as title,start_time as time from sm_ttask where tid=080135 and course='UNIX程序设计') on sm_stask.task_id=tid and sm_stask.sid= order by time desc 
+
+[ 2016-04-16T20:44:00+08:00 ] ::1 /studentMange/index.php/Teacher/scoreview/index/sid/1208010126/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1248:Every derived table must have its own alias
+ [ SQL语句 ] : select * from sm_stask as a right join (select id as tid ,title as title,start_time as time from sm_ttask where tid=080135 and course='UNIX程序设计') on a.task_id=tid and a.sid= order by time desc 
+
+[ 2016-04-16T20:44:45+08:00 ] ::1 /studentMange/index.php/Teacher/scoreview/index/sid/1208010126/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by time desc' at line 1
+ [ SQL语句 ] : select * from sm_stask as a right join (select id as tid ,title as title,start_time as time from sm_ttask where tid=080135 and course='UNIX程序设计') as b on a.task_id=b.tid and a.sid= order by time desc 
+
+[ 2016-04-16T21:37:38+08:00 ] ::1 /studentMange/index.php/Teacher/scoreview/index/sid/1208010126/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 模板不存在:./Application/Teacher/View/Scoreview/sname.html
+

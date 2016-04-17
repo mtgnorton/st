@@ -1,0 +1,19 @@
+[ 2016-04-04T16:12:28+08:00 ] ::1 /studentMange/index.php/Teacher/Class/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sm_stask` WHERE ( sid=1291868759 AND task_id=Array ) LIMIT 1  
+
+[ 2016-04-04T17:19:30+08:00 ] ::1 /studentMange/index.php/Teacher/viewtask/mark_task
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `mark_reply`='已经批改完成了',`is_mark`='1',`score`='99' WHERE ( id=5 ) [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:21:59+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `sm_announcement` SET `content`='水水爽爽爽爽爽爽爽爽爽爽爽爽爽爽爽是',`start_time`='1459765319' WHERE ( id=1 ) [ RunTime:0.0000s ]
+

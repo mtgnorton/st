@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div class="container">
+<volist name="class_data" id="value" key="key" >
+	<div id="course" class="course" > 
+	<a href="{:U('Index/teacher_course',array('cname'=>$value))}">
+	<button type="button" class="btn btn-primary btn-lg">
+
+	{$value}
+
+	 </button>
+	 <span class="badge">
+	 50
+	 </span>
+	 </a>
+	 </div>
+</volist>
+</div>
+	
+</body>
+</html>

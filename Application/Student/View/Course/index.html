@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>学生助手</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+
+
+    <!-- Custom CSS -->
+    <link href="__PUB__/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="__PUB__/sweetalert-master/dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="__PUB__/sweetalert-master/dist/sweetalert.css">
+         <script src="__PUB__/sm/sm.js"></script>
+
+<script type="text/javascript">
+      
+</script>
+</head>
+
+<style>
+    td{
+        max-width:150px;
+    }
+</style>
+<body>
+   <div id="wrapper">
+     <include file="Public/sbider" />
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                          {$course}
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="dataTable_wrapper">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                        <th><span class="label label-info">时间</span></th>
+                                     <th><span class="label label-info">作业标题(点击查看作业)</span></th>
+                                     <th><span class="label label-info">作业类型</span></th>
+                                    <th><span class="label label-info">是否已完成</span></th>
+                                     <th><span class="label label-info">是否已批改</span></th>
+                                     <th><span class="label label-info">查看回复</span></th>
+                                     <th><span class="label label-info">成绩</span></th>
+                                   
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                  <volist name="task_data" id="value" >
+                                        <tr class="odd gradeX">
+                                            <td>{:date('n-j H:i D',$value['start_time'])}</td>
+                                           <td> <a href="{:U('Student/task/index',array('task_id'=>$value['id'],'course'=>$course,'is_mark'=>$value['is_mark']))}">{$value['title']}</a></td>
+                                            <td>{$value['type']}</td>
+                                         <if condition="$value['is_finish'] eq 1">
+
+                                         <if condition="$value['is_mark'] eq 1">
+                                         <td>以批改-不可修改</td>
+                                         <else />
+                                         <td> <a href="{:U('Student/task/index',array('s_task_id'=>$value['s_task_id'],'task_id'=>$value['id'],'course'=>$course))}"><button type="button" class="btn btn-outline btn-info">已完成-点击修改</button></a></td>
+                                     </if>
+                                        <else />
+                                         <td>未完成</td>
+                                        </if>
+
+                                        <if condition="$value['is_mark'] eq 1">
+
+                                         <td><font color="red">已批改</font></td>
+                                         <td><button type="button" class="btn btn-outline btn-success" onclick="swal('{$value['mark_reply']}')">查看回复</button></td>
+                                         <td>{$value['score']}</td>
+                                         <else />
+                                         <td>未批改</td>
+                                         <td>未批改</td>
+                                         <td>未批改</td>
+                                     </if>
+                                        </tr>
+                                      
+                                    </volist>
+                                   
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                          
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+
+
+        <!-- Navigation -->
+      
+
+     
+            <!-- /.row -->
+         
+            <!-- /.row -->
+          
+            <!-- /.row -->
+        
+                <!-- /.col-lg-6 -->
+                
+            <!-- /.row -->
+          
+                <!-- /.col-lg-6 -->
+               
+  
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="__PUB__/startbootstrap/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="__PUB__/startbootstrap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="__PUB__/startbootstrap/dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+
+                responsive: true
+        
+          
+        });
+
+    });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+[ 2016-04-15T12:41:02+08:00 ] ::1 /studentMange/index.php/Teacher/viewtask/next_student_task
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: select a.*,b.title,c.class from sm_stask a join sm_ttask b on a.task_id=b.id join  sm_student c on a.sid=c.sid  where a.is_mark=0 and a.task_id=33 order by c.class ,c.sid limit 3  [ RunTime:0.0030s ]
+

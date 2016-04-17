@@ -1,0 +1,240 @@
+[ 2016-04-04T15:47:14+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sm_teacher` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `sm_teacher_course` [ RunTime:0.0060s ]
+SQL: SELECT `tname` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cname` FROM `sm_teacher_course` WHERE ( tid=080135 )  [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-04T16:19:28+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0030s ]
+SQL: SELECT `sname` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cname`,`tname` FROM `sm_student_course` WHERE ( sid=1208010126 )  [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-04T16:20:16+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/31/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;我完成这个作业了&lt;/p&gt;','1208010126','31','周章毅','1459758016','0','课前') [ RunTime:0.0000s ]
+
+[ 2016-04-04T17:20:01+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/19/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;','1208010126','19','周章毅','1459761601','0','课前') [ RunTime:0.0000s ]
+
+[ 2016-04-04T17:35:13+08:00 ] ::1 /studentMange/index.php/Student/task/index/s_task_id/6/task_id/20/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 参数错误或者未定义:is_mark
+
+[ 2016-04-04T17:35:26+08:00 ] ::1 /studentMange/index.php/Student/task/index/s_task_id/6/task_id/20/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 参数错误或者未定义:is_mark
+
+[ 2016-04-04T18:19:54+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0000s ]
+ERR: Think\Model:getFeild方法不存在！
+
+[ 2016-04-04T18:20:21+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+ERR: Think\Model:getFeild方法不存在！
+
+[ 2016-04-04T18:21:20+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+ERR: Think\Model:getFeild方法不存在！
+
+[ 2016-04-04T18:21:43+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:21:45+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:21:48+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:22:05+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:23:12+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:23:44+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:23:54+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:27:40+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:27:50+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='tname' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:28:22+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:28:28+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:28:40+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:28:44+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:28:46+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:28:48+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:28:56+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:32:43+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='编译原理' AND tname='宫生文' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:35:34+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:35:35+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0040s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:35:35+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-04T18:35:35+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:36:08+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:36:34+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:37:16+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='嵌入式系统原理' AND tname='马兴录' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-04T18:38:14+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/20/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;','1208010126','20','周章毅','1459766294','0','课前') [ RunTime:0.0000s ]
+

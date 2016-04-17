@@ -1,0 +1,62 @@
+<div class="row clearfix" id="header">
+
+          
+            <div class="col-md-12 column">
+                <h1 id='threed' class="text-center" style="">
+                
+              <a href="{:U('Teacher/Index/index')}"><img src="__PUB__/picture/logo.png" href="" alt=""></a> 
+            
+                    </h1>
+                <div >
+                <if condition="$announce eq 1">
+                <else />
+                    <div style="float:left">
+                  <button type="button" class="btn btn-danger" onclick="announce()">发布公告</button>
+                  <div style="max-width:300px"><font size='5'><span id="announce_dis">{$announcement}</span></font> </div>
+                    </div>
+                  </if>
+                </div>
+
+              <!--   <ul class="nav nav-pills" style="margin-left:80px">
+                    <li class="active">
+                        <a href="{:U('Home/Manage')}"> <span class="badge pull-right"></span>个人中心</a>
+                    </li>
+                    <li class="active" id="showLeft">
+                        <a href="#"> <span class="badge pull-right" id="cart_value">{$sum}</span> 购物车</a>
+
+                    </li>
+                       <if condition="$coin eq 'coin' "> 
+                       <else />
+                          <li class="active">
+                        <a href="#"> <span class="badge pull-right" id="now_coin">{$coin}</span> coin:</a>
+
+                    </li>
+                  </if>
+                </ul> -->
+              
+                <blockquote class="pull-right">
+                <if condition="$username eq 1 "> 
+                <div>
+   
+    </div>
+    <else /> 
+    <div>
+      <button type="button" class="btn btn-success" id="login">欢迎您{$name}
+       <button type="button" class="btn btn-warning" id="register" onclick="send_logout()">登出</button>
+     
+      </button>
+    </div>
+  </if>
+                    <p>
+                       O ever youthful,O ever weeping.
+                    </p> <small>杰克·凯鲁亚克 <cite>达摩流浪者</cite></small>
+                </blockquote>
+            </div>
+        </div>
+        <div><input type="hidden" id="send_logout" value="{:U('Teacher/index/logout')}">
+        <input type="hidden" id="login_page" value="{:U('Student/login/index')}">
+       
+        </div>
+
+     
+     

@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>发布作业</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="__PUB__/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="__PUB__/umeditor/third-party/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUB__/umeditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUB__/umeditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="__PUB__/umeditor/lang/zh-cn/zh-cn.js"></script>
+        <script src="__PUB__/sweetalert-master/dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="__PUB__/sweetalert-master/dist/sweetalert.css">
+    <link rel="stylesheet" href="__PUB__/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUB__/sm/sm.css">
+    <script src="__PUB__/sm/sm.js"></script>
+
+      <link href="__PUB__/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+  <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="__PUB__/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+  <!--   <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="__PUB__/startbootstrap/dist/js/sb-admin-2.js"></script>
+  
+    <script  type="text/javascript">
+
+   
+    
+    </script>
+
+</head>
+<body>
+
+
+
+ <div id="wrapper">
+
+ <include file="Public/sbider" />
+
+        <!-- Page Content -->
+        <div id="page-wrapper" style="">
+            <div class="container-fluid" >
+           <div style="">
+<!-- <button name="fanhui"  onclick="fanhui()">返回上一页</button> -->
+</div>
+   <div class="alert alert-warning">
+   <div style="margin-top: 20px">
+    <a href="{:U('Student/Course/index',array('course'=>$course,'tname'=>$tname))}"><button type="button" class="btn btn-warning" style="float:left;">返回上一页</button></a></div>
+                                <h3 align="center">   {$course}</h3>
+
+                            </div>
+
+
+
+
+<div class="panel panel-danger">
+   <div class="panel-heading">
+      <h3 class="panel-title">
+         <strong>标题：</strong> {$task_data['title']} <span style="float: right;"> <strong>发布时间：</strong>{:date('n-j H:i 周L',$task_data['start_time'])}</span>
+   </div>
+   <div class="panel-body">
+     {$task_data['content']}
+   </div>
+</div>
+
+
+
+<!--style给定宽度可以影响编辑器的最终宽度-->
+<script type="text/plain" id="myEditor" style="width:1000px;height:240px">
+   
+    <p id="default_c" onclick="clear_content('student')">将您要完成的作业写在这里</p>
+
+</script>
+<input type="hidden" name="modify_content" id="modify_content" value="{$s_task_data['content']}">
+<input type="hidden" id="send_task" value="{:U('Student/task/send_task',array('task_id'=>$task_data['id'],'task_type'=>$task_data['type']))}">
+<div align="center">
+<if condition="$is_mark eq 1">
+  <button name="send" onclick="sweetAlert('您已完成该作业','','error');">提交</button>
+  <else />
+   <if condition="$modify eq 1 ">
+
+    <button name="send" onclick="send_task({$s_task_data['id']})">提交</button>
+    <else />
+    <button name="send" onclick="send_task()">提交</button>
+    </if>
+  </if>
+</div>
+<div class="clear"></div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+
+
+<script type="text/javascript">
+    //实例化编辑器
+  
+    var um               = UM.getEditor('myEditor');
+    um.addListener('blur',function(){
+        $('#focush2').html('编辑器失去焦点了')
+    });
+    um.addListener('focus',function(){
+        $('#focush2').html('')
+    });
+      var modify         = {$modify};
+      var modify_content = $('#modify_content').val();
+    
+    if (modify           == 1) {
+
+      window.onload=function(){
+      setTimeout('init()',100);
+    }};
+      function init(){
+        $('#default_c').text('');    
+        um.execCommand('insertHtml', modify_content);
+    }
+
+    function insertHtml() {
+        var value = prompt('插入html代码', '');
+        um.execCommand('insertHtml', value)  
+    }
+   
+
+ 
+</script>
+
+</body>
+</html>

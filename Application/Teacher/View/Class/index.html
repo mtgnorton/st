@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="chinese">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>学生助手</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="__PUB__/sweetalert-master/dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="__PUB__/sweetalert-master/dist/sweetalert.css">
+    <script src="__PUB__/sm/sm.js"></script>
+    <!-- MetisMenu CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- DataTables CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+
+    <link href="__PUB__/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+
+
+
+</head>
+
+<style>
+    td{
+        max-width:150px;
+    }
+</style>
+<body>
+   <div id="wrapper">
+     <include file="Public/sbider" />
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+        <div class="row">
+         <volist name="all_class" id="value" key="key" >
+             <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-{$value.color}">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                   <div class="huge"></div>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">{$value.class}</div>
+                                    <div>New Tasks!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left"><a href="{:U('Teacher/class/index',array('course'=>$now_course,'tran_class'=>$value['class']))}">查看此班级</a></span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </volist>
+
+        </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                          课程：{$now_course}   班级：{$now_class} 共{$number}人 
+                          <div style="float:right;">最近一次作业标题:{$task_title}</div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="dataTable_wrapper">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                        <th><span class="label label-warning">姓名</span></th>
+                                     <th><span class="label label-warning">最近一次作业情况</span></th>
+                                     <th><span class="label label-warning">查看作业</span></th>
+                                    <th><span class="label label-warning">成绩查看</span></th>
+                                  
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      <volist name="now_class_student" id="value" key="key" >
+                                        <tr class="odd gradeX">
+                                      
+                                        <td><a href="{:U('Teacher/studenttask/index',array('sid'=>$value['0'],'course'=>$now_course))}">
+                                        {$value[1]}
+                                        </a>
+                                        </td>
+                                           <if condition="$value[2] eq 0">
+                                            <td> 未提交        </td>
+                                            <td>无法查看</td>
+                                            <else />
+                                            <td><font color="red">已提交</font>  </td>
+                                           <td><font color="red"><a href="{:U('Teacher/viewtask/index',array('stask_id'=>$value['stask_id'],'course'=>$now_course,'path'=>1))}"><button type="button" class="btn btn-outline btn-warning">点击查看</button></a></font></font></td>
+                                       </if>
+                                       <td><a href="{:U('Teacher/scoreview/index',array('sid'=>$value['0'],'course'=>$now_course))}"><button type="button" class="btn btn-outline btn-warning">查看</button></a></td>
+                                        </tr>
+                                      
+                                    </volist>
+                                   
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                          
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+
+
+        <!-- Navigation -->
+      
+
+     
+            <!-- /.row -->
+         
+            <!-- /.row -->
+          
+            <!-- /.row -->
+        
+                <!-- /.col-lg-6 -->
+                
+            <!-- /.row -->
+          
+                <!-- /.col-lg-6 -->
+               
+  
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="__PUB__/startbootstrap/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="__PUB__/startbootstrap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="__PUB__/startbootstrap/dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+    $(document).ready(function() {
+        $('#dataTables-example').DataTable({
+                responsive: true
+        });
+    });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+[ 2016-04-03T14:06:56+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_teacher` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `sm_teacher_course` [ RunTime:0.0030s ]
+SQL: SELECT `tname` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cname` FROM `sm_teacher_course` WHERE ( tid=080135 )  [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+

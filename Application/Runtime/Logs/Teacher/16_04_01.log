@@ -1,0 +1,403 @@
+[ 2016-04-01T14:43:09+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:46:51+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:47:17+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:48:12+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:48:53+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:49:38+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:51:44+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:53:52+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:53:55+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:55:38+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:55:55+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:55:58+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:56:15+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T14:57:23+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T14:57:25+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T14:57:53+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:57:53+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:57:54+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-01T14:57:54+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:57:54+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:57:55+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:58:13+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T14:58:58+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:00:12+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:01:20+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-01T15:01:49+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:02:00+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:04:07+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:25+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:26+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:27+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:05:28+08:00 ] ::1 /studentMange/index.php/Teacher/Course/insert_announce
+ERR: 1146:Table 'studentmanage.sm_announcement' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sm_announcement`
+
+[ 2016-04-01T15:10:04+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `sm_announcement` (`tid`,`tname`,`course`,`start_time`,`content`) VALUES ('80135','曹玲','UNIX程序设计','1459494604','sss') [ RunTime:0.0000s ]
+
+[ 2016-04-01T15:10:23+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion E:\xampp0\htdocs\studentMange\Application\Teacher\Controller\CourseController.class.php 第 196 行.
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : UPDATE `sm_announcement` SET `content`='fff',`start_time`='1459494623' WHERE ( id=Array )
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : UPDATE `sm_announcement` SET `content`='fff',`start_time`='1459494623' WHERE ( id=Array )
+
+[ 2016-04-01T15:11:11+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `sm_announcement` SET `content`='sss',`start_time`='1459494671' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2016-04-01T15:11:17+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `sm_announcement` SET `content`='ffff',`start_time`='1459494677' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-04-01T15:13:23+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `sm_announcement` SET `content`='vvv',`start_time`='1459494803' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2016-04-01T15:14:24+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `sm_announcement` SET `content`='ssss',`start_time`='1459494864' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-04-01T15:16:12+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='UNIX程序设计' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `sm_announcement` SET `content`='vbbvbbb',`start_time`='1459494972' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2016-04-01T15:16:34+08:00 ] ::1 /studentMange/index.php/Teacher/course/insert_announce
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `sm_announcement` WHERE ( tid=080135 AND course='操作系统实验' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `sm_announcement` (`tid`,`tname`,`course`,`start_time`,`content`) VALUES ('80135','曹玲','操作系统实验','1459494994','vvvvv') [ RunTime:0.0000s ]
+
+[ 2016-04-01T16:57:30+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:09+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T16:58:10+08:00 ] ::1 /studentMange/index.php/Teacher/Course/index/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND status=0 AND course='UNIX程序设计' )' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_ttask` WHERE ( tid= AND status=0 AND course='UNIX程序设计' ) 
+
+[ 2016-04-01T17:30:19+08:00 ] ::1 /studentMange/index.php/Teacher/Course/send_content/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `title`='111河南“平坟第一人”辞去全国人大代表职务',`content`='&lt;p id=&quot;&quot;&gt;将您要布置的作业写在这里&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; color: rgb(0, 0, 0); font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; text-indent: 2em;&quot;&gt;&lt;strong&gt;大河网讯（记者 郭俊华）3月29日，河南省十二届人大常委会第二十次会议表决通过决定，接受朱伟、陈雪枫辞去十二届全国人大代表的请求。&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; color: rgb(0, 0, 0); font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; text-indent: 2em;&quot;&gt;&lt;em&gt;2016年2月，河南省选举的十二届全国人大代表朱伟、陈雪枫分别向河南省人大常委会提交辞职报告，请求辞去十二届全国人大代表职务。根据《中华人民共和国全国人民代表大会和地方各级人民代表大会选举法》第五十四条规定，河南省十二届人大常委会第二十次会议决定接受朱伟、陈雪枫辞去十二届全国人大代表职务的请求。&lt;/em&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; color: rgb(0, 0, 0); font-size: 15.9996px; white-space: normal; text-indent: 2em;&quot;&gt;&lt;span style=&quot;font-family:arial black, avant garde&quot;&gt;据了解，朱伟系河南省商水县朱集村人，由于犯高血压和心脑血管疾病，不能履行人大代表的职责，本人特申请辞去十二届全国人大代表职务。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; color: rgb(0, 0, 0); font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; text-indent: 2em;&quot;&gt;而陈雪枫（河南省委原常委、洛阳市委原书记）因涉嫌严重违纪违法，目前正接受组织审查，不便继续履行代表职责，故请求辞去十二届全国人大代表职务。同时，陈雪枫的河南省十二届人大代表资格也同步终止。 &amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin-top: 0px; margin-bottom: 29px; padding: 0px; line-height: 28px; color: rgb(0, 0, 0); font-family: 宋体, Arial, sans-serif; font-size: 15.9996px; white-space: normal; text-indent: 2em;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p id=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;img src=&quot;http://localhost/studentMange/Public/umeditor/php/up%20load/20160331/14594267576998.jpg&quot; _src=&quot;http://localhost/studentMange/Public/umeditor/php/up%20load/20160331/14594267576998.jpg&quot;/&gt;&lt;/p&gt;&lt;p id=&quot;old_content&quot;&gt;&lt;br/&gt;&lt;/p&gt;',`type`='课后' WHERE ( id=16 ) [ RunTime:0.0010s ]
+

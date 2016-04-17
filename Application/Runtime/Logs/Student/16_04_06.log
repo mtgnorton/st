@@ -1,0 +1,343 @@
+[ 2016-04-06T21:35:16+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0060s ]
+SQL: SELECT `sname` FROM `sm_student` WHERE ( sid=080135 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-04-06T21:35:39+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT `sname` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cname`,`tname` FROM `sm_student_course` WHERE ( sid=1208010126 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 216 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-06T21:35:39+08:00 ] ::1 /studentMange/Public/index_select_course/follow.js
+ERR: 无法加载控制器:Public
+
+[ 2016-04-06T21:38:41+08:00 ] ::1 /studentMange/index.php/Student/index/view_announcement
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_announcement` [ RunTime:0.0060s ]
+SQL: SELECT `content` FROM `sm_announcement` WHERE ( course='UNIX程序设计' AND tname='曹玲' ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-06T21:39:42+08:00 ] ::1 /studentMange/Public/index_select_course/follow.js
+ERR: 无法加载控制器:Public
+
+[ 2016-04-06T21:40:31+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0030s ]
+SQL: SELECT `sname` FROM `sm_student` WHERE ( sid=080135 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-04-06T21:40:34+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_teacher` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sm_teacher_course` [ RunTime:0.0040s ]
+SQL: SELECT `tname` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `password` FROM `sm_teacher` WHERE ( tid=080135 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `cname` FROM `sm_teacher_course` WHERE ( tid=080135 )  [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-06T22:02:46+08:00 ] ::1 /studentMange/index.php/Student/Login/login_judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT `sname` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `password` FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cname`,`tname` FROM `sm_student_course` WHERE ( sid=1208010126 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\xampp0\htdocs\studentMange\Application\Student\Controller\SpiderController.class.php 第 216 行.
+NOTIC: [8] A session had already been started - ignoring session_start() E:\xampp0\htdocs\studentMange\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-04-06T22:02:46+08:00 ] ::1 /studentMange/Public/index_select_course/follow.js
+ERR: 无法加载控制器:Public
+
+[ 2016-04-06T22:03:16+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p&gt;测试完成人数&lt;/p&gt;','1208010126','32','周章毅','1459951396','0','课前') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: update sm_ttask set complete_number=complete_number+1 where id=32 [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : update sm_ttask set complete_number=complete_number+1 where id=32
+ERR: :
+ [ SQL语句 ] : update sm_ttask set complete_number=complete_number+1 where id=32
+
+[ 2016-04-06T22:03:27+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p&gt;测试完成人数&lt;/p&gt;','1208010126','32','周章毅','1459951407','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: update sm_ttask set complete_number=complete_number+1 where id=32 [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : update sm_ttask set complete_number=complete_number+1 where id=32
+ERR: :
+ [ SQL语句 ] : update sm_ttask set complete_number=complete_number+1 where id=32
+
+[ 2016-04-06T22:07:11+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p&gt;测试完成人数&lt;/p&gt;','1208010126','32','周章毅','1459951631','0','课前') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: update sm_ttask set complete_number=complete_number+1 where id=32 [ RunTime:0.0000s ]
+ERR: :
+ [ SQL语句 ] : update sm_ttask set complete_number=complete_number+1 where id=32
+ERR: :
+ [ SQL语句 ] : update sm_ttask set complete_number=complete_number+1 where id=32
+
+[ 2016-04-06T22:10:52+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:11:24+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:11:26+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:11:32+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0010s ]
+
+[ 2016-04-06T22:11:39+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0020s ]
+
+[ 2016-04-06T22:11:58+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:12:01+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;1111&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:12:44+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;1111&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:12:47+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;1111&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;222&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:12:50+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/32/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p&gt;测试完成人数&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;1111&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;222&lt;/p&gt;' WHERE ( id=358 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:28+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数&lt;/p&gt;','1208010126','22','周章毅','1459952008','0','课前') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:45+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数&lt;/p&gt;','1208010126','22','周章毅','1459952025','0','课前') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0010s ]
+
+[ 2016-04-06T22:13:47+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数&lt;/p&gt;','1208010126','22','周章毅','1459952027','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:48+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数&lt;/p&gt;','1208010126','22','周章毅','1459952028','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:50+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数&lt;/p&gt;','1208010126','22','周章毅','1459952030','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:51+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数&lt;/p&gt;','1208010126','22','周章毅','1459952031','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:55+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数1111&lt;/p&gt;','1208010126','22','周章毅','1459952035','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:13:57+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;测试完成人数1111&lt;/p&gt;','1208010126','22','周章毅','1459952037','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=22 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:20:21+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=22 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:20:26+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/22/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=22 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-06T22:21:02+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/30/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=30 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;','1208010126','30','周章毅','1459952462','0','课前') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=30 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:21:04+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/30/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=30 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:21:08+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/30/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=30 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:21:20+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/30/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=369 ) [ RunTime:0.0010s ]
+
+[ 2016-04-06T22:21:21+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/30/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0030s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=369 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:21:24+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/30/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_stask` SET `content`='&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里石狮市&lt;/p&gt;&lt;p id=&quot;default_c&quot;&gt;&lt;br/&gt;&lt;/p&gt;' WHERE ( id=369 ) [ RunTime:0.0000s ]
+
+[ 2016-04-06T22:33:11+08:00 ] ::1 /studentMange/index.php/Student/task/index/task_id/23/course/UNIX%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.shtml
+ERR: 1054:Unknown column 'UNIX程序设计' in 'where clause'
+ [ SQL语句 ] : SELECT `tname` FROM `sm_student_course` WHERE ( sid=1208010126 AND cname=UNIX程序设计 ) LIMIT 1  
+
+[ 2016-04-06T22:34:07+08:00 ] ::1 /studentMange/index.php/Student/task/send_task/task_id/23/task_type/%E8%AF%BE%E5%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_stask` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `sm_stask` WHERE ( sid=1208010126 AND task_id=23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `sm_stask` (`content`,`sid`,`task_id`,`sname`,`submit_time`,`is_mark`,`type`) VALUES ('&lt;p id=&quot;default_c&quot;&gt;将您要完成的作业写在这里&lt;/p&gt;','1208010126','23','周章毅','1459953247','0','课前') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sm_ttask` [ RunTime:0.0020s ]
+SQL: UPDATE `sm_ttask` SET `complete_number`=complete_number+1 WHERE ( id=23 ) [ RunTime:0.0000s ]
+

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="chinese">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>学生助手</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- MetisMenu CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- DataTables CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+
+    <link href="__PUB__/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+   <script type="text/javascript" src="__PUB__/jquery/jquery-2.1.1.min.js"></script>
+    <style type="text/css">
+        ${demo.css}
+        </style>
+ <script type="text/javascript">
+    
+    var data        = {$data};
+    var scoreArr    = [];
+    var xArr        = [];
+    var title       = {$sname}+"成绩统计";
+
+    for(var p in data){
+    scoreArr.push(parseInt(data[p].score));
+    }
+    for (var i = 0; i < data.length; i++) {
+        var temp = i+1;
+        xArr.push("第"+temp+"次");
+    }
+ 
+
+     $(function () {
+
+     $('#graph').highcharts({
+        chart: {
+
+        },
+
+        title: {
+            text: title,
+            x: -20 //center
+        },
+        xAxis: {
+         reversed: false,
+            title: {
+                enabled: true,
+                text: '作业'
+            },
+            gridLineWidth:      1,
+            gridLineDashStyle:  'Dot',
+            categories:         xArr,
+            maxPadding:         0.05,
+            showLastLabel:      true
+        },
+        yAxis: {
+            title: {
+                text:'分值',
+            },
+
+            plotLines:[{
+            color:'red',           //线的颜色，定义为红色
+            dashStyle:'dot',     //默认值，这里定义为实线
+            value:60,               //定义在那个值上显示标示线，这里是在x轴上刻度为3的值处垂直化一条线
+            width:2,                //标示线的宽度，2px
+            label:{
+            text:'60分及格线',     //标签的内容
+            align:'left',                //标签的水平位置，水平居左,默认是水平居中center
+            x:10                         //标签相对于被定位的位置水平偏移的像素，重新定位，水平居左10px
+    },
+     }],
+            max:100,
+            min:-2,
+            labels:{
+            step: 1,
+              formatter:function(){
+      if(this.value >=-2 && this.value < 1) { 
+        return "未批改("+this.value+")";
+      }else if(this.value  >= -1 && this.value <0) { 
+        return "未提交("+this.value+")"; 
+      }else if(this.value >0 && this.value<60){ 
+        return "不及格("+this.value+")";
+      }else if(this.value >=60 && this.value<90){
+       return "良好("+this.value+")";
+      }
+      else if(this.value >=90 ){
+      return "优秀("+this.value+")";
+      }
+            }
+        },
+           
+          
+            
+            gridLineDashStyle:'Dash',
+        },
+        tooltip: {
+            valueSuffix: '分',
+             headerFormat: '<small>{point.key}作业</small><table><br/>',
+            pointFormatter: function() {
+                if (this.y  ==-2 ) {
+                    this.y  = '未批改';
+                }
+                else if(this.y == -1){
+                    this.y     = '未提交';
+                }
+            return '<span style="color:{'+this.series.color+'}"></span> '+
+           this.series.name+': <b>'+this.y+'</b><br/>'
+        }
+        },
+        plotOptions: {
+        line: {
+        dataLabels: {
+            enabled: true
+        }
+    }   
+    },
+     credits:{
+     enabled:false // 禁用版权信息
+    },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0
+        },
+        series: [{
+           name : "成绩",
+           zones: [{
+                value: 0,
+                color: '#f7a35c',
+                dashStyle: 'dot'
+            }, {
+                value: 60,
+                color: '#7cb5ec'
+            }, {
+                color: '#90ed7d'
+            }],
+           data : scoreArr,
+        },
+        ]
+    });
+
+
+});
+
+    </script>
+</head>
+
+<style>
+    td{
+        max-width:150px;
+    }
+</style>
+<body>
+   <div id="wrapper">
+     <include file="Public/sbider" />
+
+        <!-- Page Content -->
+        <div id="page-wrapper">
+      
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                          课程：{$now_course}   班级：{$now_class} 共{$number}人 
+                          <div style="float:right;">最近一次作业标题:{$task_title}</div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                           
+                          
+<div id="graph" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+                          
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="__PUB__/Highcharts-4.2.3/js/highcharts.js"></script>
+    <script type="text/javascript" src="__PUB__/Highcharts-4.2.3/js/themes/gray.js"></script>
+    <script src="__PUB__/Highcharts-4.2.3/js/modules/exporting.js"></script>
+    <!-- <script src="__PUB__/startbootstrap/bower_components/jquery/dist/jquery.min.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- DataTables JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="__PUB__/startbootstrap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="__PUB__/startbootstrap/dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+   
+
+</body>
+
+</html>

@@ -1,0 +1,669 @@
+[ 2016-03-25T12:16:00+08:00 ] ::1 /studentMange/Home/Spider/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T12:16:00+08:00 ] ::1 /studentMange/Home/Spider/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T12:35:09+08:00 ] ::1 /studentMange/Home/Spider/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T12:35:09+08:00 ] ::1 /studentMange/Home/Spider/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T16:28:44+08:00 ] ::1 /studentMange/Home/Login
+ERR: 模板不存在:./Application/Home/View/Login_index.html
+
+[ 2016-03-25T16:29:32+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'xuyu'
+
+[ 2016-03-25T16:29:34+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'xuyu'
+
+[ 2016-03-25T16:32:08+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+ERR: SQLSTATE[HY000] [1049] Unknown database 'xuyu'
+
+[ 2016-03-25T18:03:55+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+ERR: 1048:Column 'depart' cannot be null
+ [ SQL语句 ] : INSERT INTO `sm_student` (`sid`,`sname`,`depart`,`profession`,`phone`,`photo`) VALUES ('1208010126','周章毅',NULL,NULL,NULL,NULL)
+
+[ 2016-03-25T18:09:28+08:00 ] ::1 /studentMange/index.php/Home/Login/judge
+ERR: 1048:Column 'sname' cannot be null
+ [ SQL语句 ] : INSERT INTO `sm_student` (`sid`,`sname`,`depart`,`profession`,`phone`,`photo`) VALUES ('1208010126',NULL,'信息科学技术学院','计算机科学与技术','2147483647','./Public/photo_img/1208010126.jpg')
+
+[ 2016-03-25T20:27:24+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-25T20:28:48+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=1208010126 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-25T20:28:54+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:29:00+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:29:09+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:29:12+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column '2345fasdf' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sm_student` WHERE ( sid=2345fasdf ) LIMIT 1  
+ERR: 1054:Unknown column '2345fasdf' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sm_student` WHERE ( sid=2345fasdf ) LIMIT 1  
+
+[ 2016-03-25T20:29:15+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column '2345fasdf' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sm_student` WHERE ( sid=2345fasdf ) LIMIT 1  
+ERR: 1054:Unknown column '2345fasdf' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sm_student` WHERE ( sid=2345fasdf ) LIMIT 1  
+
+[ 2016-03-25T20:33:58+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:33:59+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:00+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:00+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:00+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:01+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:02+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:03+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:03+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:04+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:04+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:04+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:34+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_student` WHERE ( sid= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `sm_student` WHERE ( sid= ) LIMIT 1  
+
+[ 2016-03-25T20:34:36+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:38+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:49+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:50+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:51+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:51+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:51+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:34:52+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:35:08+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:35:55+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:35:59+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T20:36:02+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sm_student` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sm_student_course` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sm_student` WHERE ( sid=2345 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 94 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 168 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 181 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 183 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 185 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 187 行.
+NOTIC: [8] Undefined offset: 1 E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 189 行.
+NOTIC: [8] Undefined variable: sid E:\xampp0\htdocs\studentMange\Application\Home\Controller\SpiderController.class.php 第 122 行.
+
+[ 2016-03-25T21:42:14+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:judge
+
+[ 2016-03-25T21:42:15+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:judge
+
+[ 2016-03-25T21:43:07+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:judge
+
+[ 2016-03-25T21:43:19+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+ERR: 非法操作:judge
+
+[ 2016-03-25T21:43:45+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+ERR: 非法操作:judge
+
+[ 2016-03-25T21:43:55+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+ERR: 非法操作:judge
+
+[ 2016-03-25T21:44:48+08:00 ] ::1 /studentMange/index.php/Home/Login/judge.shtml
+ERR: 非法操作:judge
+
+[ 2016-03-25T22:27:13+08:00 ] ::1 /studentMange/index.php/Home/www.baidu.com
+ERR: 无法加载控制器:Www.baidu.com
+
+[ 2016-03-25T22:28:39+08:00 ] ::1 /studentMange/index.php/Home/www.baidu.com
+ERR: 无法加载控制器:Www.baidu.com
+
+[ 2016-03-25T22:28:42+08:00 ] ::1 /studentMange/index.php/Home/www.baidu.com
+ERR: 无法加载控制器:Www.baidu.com
+
+[ 2016-03-25T22:39:14+08:00 ] ::1 /studentMange/index.php/Home/Jsspider
+ERR: 无法加载控制器:Jsspider
+
+[ 2016-03-25T22:39:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:40:09+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: Think\Controller:getPerInfo方法不存在！
+
+[ 2016-03-25T22:40:11+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: Think\Controller:getPerInfo方法不存在！
+
+[ 2016-03-25T22:41:09+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:41:09+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:41:09+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/CheckCode.aspx
+ERR: 非法操作:CheckCode.aspx
+
+[ 2016-03-25T22:41:59+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-03-25T22:41:59+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:41:59+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:42:01+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/content.aspx
+ERR: 非法操作:content.aspx
+
+[ 2016-03-25T22:44:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:44:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:44:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-03-25T22:46:58+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/base/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:46:58+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/style/standard/jw.css
+ERR: 非法操作:style
+
+[ 2016-03-25T22:46:58+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/js/xtwh.js
+ERR: 非法操作:js
+
+[ 2016-03-25T22:49:22+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:23+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+
+[ 2016-03-25T22:49:32+08:00 ] ::1 /studentMange/index.php/Home/JsSpider/transfer
+ERR: 参数错误或者未定义:sid
+

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>发布作业</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="__PUB__/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="__PUB__/umeditor/third-party/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUB__/umeditor/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUB__/umeditor/umeditor.min.js"></script>
+    <script type="text/javascript" src="__PUB__/umeditor/lang/zh-cn/zh-cn.js"></script>
+        <script src="__PUB__/sweetalert-master/dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="__PUB__/sweetalert-master/dist/sweetalert.css">
+    <link rel="stylesheet" href="__PUB__/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUB__/sm/sm.css">
+
+    <script src="__PUB__/sm/sm.js"></script>
+
+      <link href="__PUB__/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="__PUB__/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+ 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="__PUB__/startbootstrap/dist/js/sb-admin-2.js"></script>
+  
+    <script  type="text/javascript">
+
+   
+    
+    </script>
+
+</head>
+<body>
+
+
+
+ <div id="wrapper">
+
+ <include file="Public/sbider" />
+
+        <!-- Page Content -->
+        <div id="page-wrapper" style="">
+            <div class="container-fluid" >
+           <div style="">
+<!-- <button name="fanhui"  onclick="fanhui()">返回上一页</button> -->
+</div>
+   <div class="alert alert-warning">
+                                <!-- <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button> -->
+                                <h3 align="center">{$now_course}---发布作业</h3> </a>.
+                            </div>
+<h1 align="center"> </h1>
+ <div class="form-group has-success" align="center">
+                                            <label class="control-label" for="inputSuccess">请输入作业标题：</label>
+                                          
+<!-- <div align="center" id="biaoti"><font size="4">请输入作业标题：</font> -->
+<if condition="$modify eq 1">
+<!-- <input type="text" name="title"
+id="title" value="{$task_data.title}" size="50"> -->
+  <input type="text" name="title"
+id="title" class="form-control"  value="{$task_data.title}" style="width: 400px">
+
+<else />
+  <input type="text" name="title"
+id="title" class="form-control"  value="" style="width: 400px">
+</if>
+    </div>
+</div>
+
+ <div align="center" id="div_type">
+<if condition="$modify eq 1">
+    <if condition="$task_type eq 1">
+    <button type="button" class="btn btn-outline btn-info">课前</button>
+ <input type="radio" checked="checked" name="type" value="课前" style="width:40px" /> 
+<button type="button" class="">课后</button>
+ <input type="radio" name="type" value="课后" style="width:40px"/>
+ <else />
+    <span class="label label-success">课前</span>
+ <input type="radio" name="type" value="课前" style="width:40px" /> 
+<span class="label label-success">课后</span>
+ <input type="radio" checked="checked" name="type" value="课后" style="width:40px"/>
+   </if>
+<else />
+    <button type="button" class="btn btn-outline btn-info">课前</button>
+ <input type="radio" checked="checked" name="type" value="课前" style="width:40px" /> 
+<button type="button" class="btn btn-outline btn-info">课后</button>
+ <input type="radio" name="type" value="课后" style="width:40px"/>
+    </if>
+ </div>
+
+<input type="hidden"  id="insert_announce" value="{:U('Teacher/Index/insert_announce')}">
+<input type="hidden" id="send_content" value="{:U('Teacher/Course/send_content',array('course'=>$now_course))}">
+
+<!--style给定宽度可以影响编辑器的最终宽度-->
+<script type="text/plain" id="myEditor" style="width:1000px;height:240px">
+   
+    <p id="old_content" onclick="clear_content('teacher')">将您要布置的作业写在这里</p>
+
+</script>
+<input type="hidden" name="modify_content" id="modify_content" value="{$task_data['content']}">
+<div align="center">
+    <if condition="$modify eq 1">
+
+    <button name="send" onclick="send_content({$task_data['id']})">发布</button>
+    <else />
+    <button name="send" onclick="send_content()">发布</button>
+    </if>
+</div>
+<div class="clear"></div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+
+
+<script type="text/javascript">
+    //实例化编辑器
+  
+    var um               = UM.getEditor('myEditor');
+    um.addListener('blur',function(){
+        $('#focush2').html('编辑器失去焦点了')
+    });
+    um.addListener('focus',function(){
+        $('#focush2').html('')
+    });
+  
+    
+      var modify         = {$modify};
+      var modify_content = $('#modify_content').val();
+      var btn            = document.getElementById('btn');
+    if (modify           == 1) {
+
+      window.onload=function(){
+      setTimeout('init()',100);
+    }};
+      function init(){
+        $('#old_content').text('');    
+        um.execCommand('insertHtml', modify_content);
+    }
+
+    function insertHtml() {
+        var value = prompt('插入html代码', '');
+        um.execCommand('insertHtml', value)  
+    }
+   
+
+ 
+</script>
+
+</body>
+</html>

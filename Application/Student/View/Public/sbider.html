@@ -1,0 +1,95 @@
+
+ 
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{:U('Student/index/index')}">学习助手</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+              
+                <!-- /.dropdown -->
+          
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>              
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>查看所有作业</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> 欢迎您{$name}</a>
+                        </li>
+                       
+                        <li class="divider"></li>
+                        <li><a href="{:U('Teacher/index/logout',array('logout'=>1))}"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search" style="min-height: 90px">
+                        <span>欢迎您{$name}</span>
+                            <div style="float: right; " ><img src="{$photo_head}"  width="70" height="70" alt=""></div>
+                            <!-- /input-group -->
+                        </li>
+                  <volist name="course_task_data" id="value" >
+                        <li>
+                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> {$value['course']}<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                              
+                                  <li>
+                                    <a href="{:U('Student/Course/index',array('course'=>$value['course'],'tname'=>$value['tname']))}">
+                                    查看近期作业</a>
+                               <li>
+                                  <a href="javascript:void(0)" onclick="view_announce('{$value.course}','{$value.tname}');return false">查看公告</a>
+                                </li>
+                                </li>
+                           
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </volist>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <input type="hidden" id="view_announcement" value="{:U('Student/index/view_announcement')}">
