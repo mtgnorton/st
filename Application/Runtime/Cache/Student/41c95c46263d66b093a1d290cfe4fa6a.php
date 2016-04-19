@@ -12,30 +12,30 @@
     <title>学习助手</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/studentMange/Public/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/st/Public/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="/studentMange/Public/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+    <link href="/st/Public/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/studentMange/Public/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="/st/Public/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="/studentMange/Public/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <script src="/studentMange/Public/startbootstrap/bower_components/jquery/dist/jquery.min.js"></script>
+    <link href="/st/Public/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="/st/Public/startbootstrap/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/studentMange/Public/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/st/Public/startbootstrap/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <script src="/studentMange/Public/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+    <script src="/st/Public/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="/studentMange/Public/startbootstrap/dist/js/sb-admin-2.js"></script>
+    <script src="/st/Public/startbootstrap/dist/js/sb-admin-2.js"></script>
    
-       <script src="/studentMange/Public/sweetalert-master/dist/sweetalert.min.js"></script> 
-    <link rel="stylesheet" type="text/css" href="/studentMange/Public/sweetalert-master/dist/sweetalert.css">
-    <link rel="stylesheet" href="/studentMange/Public/index_select_course/css/jquery-labelauty.css">
+       <script src="/st/Public/sweetalert-master/dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="/st/Public/sweetalert-master/dist/sweetalert.css">
+    <link rel="stylesheet" href="/st/Public/index_select_course/css/jquery-labelauty.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -208,15 +208,15 @@ input.labelauty + label { font: 12px "Microsoft Yahei";}
 
     <!-- jQuery -->
     <!-- <script src="js/jquery-1.8.3.min.js"></script> -->
-<script src="/studentMange/Public/index_select_course/js/jquery-labelauty.js"></script>
+<script src="/st/Public/index_select_course/js/jquery-labelauty.js"></script>
 <script>
 $(function(){
     $(':input').labelauty();
 });
 </script>
 <div style="text-align:center;clear:both;">
-<!-- <script src="/studentMange/Public/index_select_course/gg_bd_ad_720x90.js" type="text/javascript"></script> --> <script src="/studentMange/Public/sm/sm.js"></script>
-<script src="/studentMange/Public/index_select_course/follow.js" type="text/javascript"></script>
+<!-- <script src="/st/Public/index_select_course/gg_bd_ad_720x90.js" type="text/javascript"></script> --> <script src="/st/Public/sm/sm.js"></script>
+<script src="/st/Public/index_select_course/follow.js" type="text/javascript"></script>
 </div>
 
 </body>
