@@ -123,5 +123,28 @@ class ClassController extends Controller
 	
 	}
 	
-
+	public function getScore()
+	{
+		$staskModel 	= M('stask');
+		$sid 			= I('post.sid');
+		$tid			= session('tid');
+		$now_course		= I('post.course');
+		$sql 			= "select score,sname,is_mark,b.tid,b.title from sm_stask as a right join (select id as tid ,title as title,start_time as time from sm_ttask where tid=$tid and course='$now_course') as b on a.task_id=b.tid and a.sid=$sid order by time asc ";
+		$data 			= $staskModel->query($sql);
+		foreach ($data as $key => $value) {
+			if (empty($value['score']) ) {
+				if (empty($value['sname'])) {
+					$data[$key]['score'] 	= -1;#-1代表未提交作业
+				}
+				else{
+					$data[$key]['score'] 	= -2;#-2代表未批改作业
+				}
+			}
+		}
+		$studentModel 	= M('student');
+		$sname 			= $studentModel->where("sid=$sid")->getField('sname');
+		$this->assign('sname',json_encode($sname,JSON_UNESCAPED_UNICODE));
+		$data 			= json_encode($data,JSON_UNESCAPED_UNICODE);
+		$this->ajaxReturn($data,0);
+	}
 }

@@ -27,41 +27,25 @@
         ${demo.css}
         </style>
  <script type="text/javascript">
-    
-    var data        = <?php echo ($data); ?>;
-    var scoreArr    = [];
-    var xArr        = [];
-    var title       = <?php echo ($sname); ?>+"成绩统计";
-
-    for(var p in data){
-    scoreArr.push(parseInt(data[p].score));
-    }
-    for (var i = 0; i < data.length; i++) {
-        var temp = i+1;
-        xArr.push("第"+temp+"次");
-    }
- 
-
-     $(function () {
-
-     $('#graph').highcharts({
+    var mysqlSelectSortOptions = {
+         
         chart: {
-
+        renderTo: 'ph',
         },
 
         title: {
-            text: title,
+            
             x: -20 //center
         },
         xAxis: {
-         reversed: false,
+            reversed: false,
             title: {
                 enabled: true,
                 text: '作业'
             },
             gridLineWidth:      1,
             gridLineDashStyle:  'Dot',
-            categories:         xArr,
+         
             maxPadding:         0.05,
             showLastLabel:      true
         },
@@ -101,8 +85,7 @@
             }
         },
            
-          
-            
+  
             gridLineDashStyle:'Dash',
         },
         tooltip: {
@@ -147,15 +130,77 @@
             }, {
                 color: '#90ed7d'
             }],
-           data : scoreArr,
+        
         },
         ]
-    });
+        };
+            
 
+        var scoreArr    = [];
+        var xArr        = [];
+        var title       = <?php echo ($sname); ?>+"成绩统计";
+        var url         =  <?php echo U('Teacher/Scoreview/index');?>;
+        alert(url);
 
-});
+        function test (){                                                                                                                               
+        $.ajax({
+
+            url :   url,
+            type:   "GET",
+            cache: false,
+            data:   {
+            sid     : 1208010126,
+            course  : 'UNIX程序设计',
+            flag    : 1,
+            },
+            success: function (msg) {
+             msg = eval('('+msg+')');
+             console.log(msg);
+               for(var p in msg){
+             scoreArr.push(parseInt(msg[p].score));
+                }
+                console.log(scoreArr);
+             for (var i = 0; i < msg.length; i++) {
+             var temp = i+1;
+             xArr.push("第"+temp+"次");
+            }
+            console.log(xArr);
+            mysqlSelectSortOptions.series[0].data       = scoreArr;
+            mysqlSelectSortOptions.xAxis.categories     = xArr;
+            mysqlSelectSortOptions.title.text           = title;                                                                                                                                                                             
+            var chart = new Highcharts.Chart(mysqlSelectSortOptions);
+            $(".mask").show();
+            $(".bomb_box").show();
+            },
+            
+        });
+    }
+
 
     </script>
+    <style>
+    .mask{
+display:none;
+width:100%;
+position:absolute;
+background:#fff;
+z-index:10;
+top:0;
+left:0;
+height:100%;
+opacity:0.4;
+}
+ 
+/*弹框*/
+.bomb_box {
+display:none;
+background:#fff;
+position:absolute;
+top:80px;
+left:150px;
+z-index:20;
+}
+</style>
 </head>
 
 <style>
@@ -289,8 +334,14 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                           
-                          
+                 
+<button id="btn">name</button>
+ 
+<!-- 弹框底层蒙版 -->
+<div class="mask"></div>
+
+ 
+<div class="bomb_box" id="ph"></div>
 <div id="graph" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
                           
                         </div>
@@ -310,8 +361,10 @@
         <!-- /#page-wrapper -->
 
     </div>
+    <button name="btn" id='btn'>sssss</button>
+    <button name="pp" id="pp" onclick="test()">点击获取图表</button>
 
-
+    
     <!-- jQuery -->
     <script src="/studentMange/Public/Highcharts-4.2.3/js/highcharts.js"></script>
     <script type="text/javascript" src="/studentMange/Public/Highcharts-4.2.3/js/themes/gray.js"></script>
