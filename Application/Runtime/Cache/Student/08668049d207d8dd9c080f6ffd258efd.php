@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en" class="no-js">
 
 <head>
@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script src="/st/Public/jquery/jquery-2.1.1.js"></script>
-    <script src="/st/Public/jquery/jquery-2.1.1.min.js"></script>
-    <link rel="stylesheet" href="/st/Public/Login/css/reset.css">
-    <link rel="stylesheet" href="/st/Public/Login/css/supersized.css">
-    <link rel="stylesheet" href="/st/Public/Login/css/style.css">
-    <script src="/st/Public/sweetalert-master/dist/sweetalert.min.js"></script> 
-    <link rel="stylesheet" type="text/css" href="/st/Public/sweetalert-master/dist/sweetalert.css">
+    <script src="/studentMange/Public/jquery/jquery-2.1.1.js"></script>
+    <script src="/studentMange/Public/jquery/jquery-2.1.1.min.js"></script>
+    <link rel="stylesheet" href="/studentMange/Public/Login/css/reset.css">
+    <link rel="stylesheet" href="/studentMange/Public/Login/css/supersized.css">
+    <link rel="stylesheet" href="/studentMange/Public/Login/css/style.css">
+    <script src="/studentMange/Public/sweetalert-master/dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="/studentMange/Public/sweetalert-master/dist/sweetalert.css">
     <script language="JavaScript">
     function changeVerify() {
         var timenow = new Date().getTime();
@@ -59,7 +59,7 @@
 </head>
 
 <body>
-
+    <input type="hidden" id="p_path" value="/studentMange/Public/Login/img/backgrounds/">
 
     <div class="page-container">
         <h1>登录</h1>
@@ -87,10 +87,10 @@
         </div>
     </div>
     <!-- Javascript -->
-    <script src="/st/Public/Login/js/jquery-1.8.2.min.js"></script>
-    <script src="/st/Public/Login/js/supersized.3.2.7.min.js"></script>
-    <script src="/st/Public/Login/js/supersized-init.js"></script>
-    <script src="/st/Public/Login/js/scripts.js"></script>
+    <script src="/studentMange/Public/Login/js/jquery-1.8.2.min.js"></script>
+    <script src="/studentMange/Public/Login/js/supersized.3.2.7.min.js"></script>
+    <script src="/studentMange/Public/Login/js/supersized-init.js"></script>
+    <script src="/studentMange/Public/Login/js/scripts.js"></script>
 </body>
 
 </html>

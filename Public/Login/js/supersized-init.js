@@ -1,4 +1,5 @@
 jQuery(function($){
+    var path = $("#p_path").val();
 
     $.supersized({
 
@@ -20,9 +21,9 @@ jQuery(function($){
         // Components
         slide_links        : 'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
         slides             : [    // Slideshow Images
-                                 {image : 'http://localhost/youju/Public//Login/img/backgrounds/1.jpg'},
-                                 {image : 'http://localhost/youju/Public//Login/img/backgrounds/2.jpg'},
-                                 {image : 'http://localhost/youju/Public//Login/img/backgrounds/3.jpg'}
+                                 {image : path + '1.jpg'},
+                                  {image : path + '2.jpg'},
+                                   {image : path + '3.jpg'},
                        ]
 
     });
