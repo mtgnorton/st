@@ -24,14 +24,8 @@ class StudenttaskController extends Controller {
 		 *获得老师首页下每个课程对应的班级和学生
 		 *
 		 */
-		$t_course 				=  session('t_course');
-		foreach ($t_course as $key => $value) {
-
-		$te_course[$key]['course'] 	= $value;
-		$te_course[$key]['color'] 	= $color[$i];
-		}
-		
-		$this->assign('course',$te_course);
+			$t_course 				=  session('course');
+		$this->assign('course',$t_course);
 
     	$ttaskModel 		= M('ttask');
     	$tname 				= session('tname');

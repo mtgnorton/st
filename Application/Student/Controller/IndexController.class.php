@@ -48,6 +48,7 @@ class IndexController extends Controller
 		}
 		}
 		
+		
 		$this->assign('course_task_data',$course_task_data);
 		$this->assign('t_course',session('temp_course'));
 		$this->assign('s_course',session('s_course'));

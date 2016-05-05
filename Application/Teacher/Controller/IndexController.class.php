@@ -26,16 +26,9 @@ class IndexController extends Controller
 			$this->error('请先登录',U('Student/login/index'),3);
 		}
 		$this->assign('name',	session('tname')."老师");
-		$t_course 				=  session('t_course');
+		$t_course 				=  session('course');
+		$this->assign('course',$t_course);
 
-		foreach ($t_course as $key => $value) {
-
-		$te_course[$key]['course'] 	= $value;
-		$te_course[$key]['color'] 	= $color[$i];
-		}
-		
-		$this->assign('course',$te_course);
-	
 		/*
 		 *此处的作用是：
 		 *获得老师首页下每个课程对应的班级
@@ -44,11 +37,14 @@ class IndexController extends Controller
 		$student_info		= 	get_class_student(session('t_course'));
     	$this->assign('class_data',	$student_info['class_data']);
     	
+    	$this->assign('t_course',session('temp_course'));
     	/*
     	 *此处的作用是：
     	 *获得老师对应的公告
     	 *
     	 */
+
+   
     	$teacherModel 		= M('teacher');
     	$tid 				= session('tid');
     	$announcement 		= $teacherModel->where("tid=$tid")->getField('announcement');
@@ -76,6 +72,121 @@ class IndexController extends Controller
 		exit;
 		}
 
+	}
+	/*
+	 *此处的作用是：
+	 *老师批量添加课程时，此函数调用数据库
+	 *
+	 */
+		public function add_course($value='')
+		{
+			$teacher_course_Model 	= M('teacher_course');
+			$tid 					= session('tid');
+			$tname 					= session('tname');
+			$course 				= I('post.course');
+			if (empty($course)) {
+			$response['flag']		= 0;
+			$response['msg']		= "您没有选择课程" ;
+			$this->ajaxReturn($response,0);
+			}
+			foreach ($course as $key => $value) {
+			
+			$insert_data['tid'] 	= $tid;
+			$insert_data['cname']	= $value;
+			$insert_data['tname']	= $tname;
+
+			$is_exist				= $teacher_course_Model->where("tid='$tid' AND cname='$value'")->getField('id');
+		
+			if ($is_exist) {
+				continue;
+			}
+		    $teacher_course_Model	-> add($insert_data);
+			}
+			$course_tea_data 		= $teacher_course_Model->where("tid=$tid")->getField('id,cname');
+			foreach ($course_tea_data as $key => $value) {
+			$course_arr[] 	= array('course'=>$value);
+			}
+			session('course', $course_arr);
+			$response['flag']		= 1;
+			$response['msg']		= "课程添加成功";
+			$this->ajaxReturn($response,0);
+		
+		}
+
+		/*
+		 *此处的作用是：
+		 *当学生手动添加课程时，此函数调用数据库
+		 *
+		 */
+		public function add_one_course($value='')
+		{
+			$teacher_course_Model 	= M('teacher_course');
+			$tid 					= session('tid');
+			$course 				= I('post.course');
+			$course 				= trim($course);
+			// $tname 					= I('post.tname');
+			// $tname 					= trim($tname);
+			$tname 					= session('tname');
+			$insert_data['tid']		= $tid;
+			$insert_data['tname']	= $tname;
+			$insert_data['cname'] 	= $course;
+			$is_exist				= $teacher_course_Model->where("tid='$tid' AND cname='$course'")->find();
+			if ($is_exist) {
+			$response['flag']		= 0;
+			$response['msg']		= "课程已存在";
+			$this->ajaxReturn($response,0);
+			}else{
+			$teacher_course_Model	-> add($insert_data);
+
+			$course_tea_data 		= $teacher_course_Model->where("tid=$tid")->getField('id,cname');
+			foreach ($course_tea_data as $key => $value) {
+			$course_arr[] 	= array('course'=>$value);
+			}
+			session('course', $course_arr);
+
+			$response['flag']		= 1;
+			$response['msg']		= "添加课程成功";
+			$this->ajaxReturn($response,0);
+			}
+			
+			
+		}
+		public function delete_course($value='')
+		{
+			$teacher_course_Model 	= M('teacher_course');
+			$tid 					= session('tid');
+			$tname 					= session('tname');
+			$course 				= I('post.course');
+			if (empty($course)) {
+			$response['flag']		= 0;
+			$response['msg']		= "您没有选择课程" ;
+			$this->ajaxReturn($response,0);
+			}
+			foreach ($course as $key => $value) {
+			
+			$insert_data['tid'] 	= $tid;
+			$insert_data['cname']	= $value;
+			$insert_data['tname']	= $tname;
+
+			$is_exist				= $teacher_course_Model->where("tid='$tid' AND cname='$value'")->getField('id');
+
+			if ($is_exist) {
+			$teacher_course_Model->where("id=$is_exist")->delete();
+			}
+
+			}
+		
+			$course_tea_data 		= $teacher_course_Model->where("tid=$tid")->getField('id,cname');
+			foreach ($course_tea_data as $key => $value) {
+			$course_arr[] 	= array('course'=>$value);
+			}
+			session('course', $course_arr);
+			
+			$response['flag']		= 1;
+			$response['msg']		= "删除课程成功";
+			$this->ajaxReturn($response,0);
+		
+		
 	}
 
 	public function logout($value='')

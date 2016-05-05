@@ -36,14 +36,9 @@ class ClassController extends Controller
 		 *获得老师首页下每个课程对应的班级和学生
 		 *
 		 */
-		$t_course 				=  session('t_course');
-		foreach ($t_course as $key => $value) {
-
-		$te_course[$key]['course'] 	= $value;
-		$te_course[$key]['color'] 	= $color[$i];
-		}
+		$t_course 				=  session('course');
+		$this->assign('course',$t_course);
 		
-		$this->assign('course',$te_course);
 		$this->assign('now_course',$course);
 		/*
 		 *此处的作用是：

@@ -18,13 +18,8 @@ class ViewtaskController extends Controller {
 			$this->error('请先登录',U('Student/login/index'),3);
 		}
 		$this->assign('name',	session('tname')."老师");
-		$t_course 				=  session('t_course');
-		foreach ($t_course as $key => $value) {
-
-		$te_course[$key]['course'] 	= $value;
-		$te_course[$key]['color'] 	= $color[$i];
-		}
-		$this->assign('course',$te_course);
+	   $t_course               =  session('course');
+        $this->assign('course',$t_course);
 		$this->assign('now_course',$course);
 
     	$staskModel 	=	M('stask');

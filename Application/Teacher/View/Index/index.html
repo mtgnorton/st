@@ -14,12 +14,15 @@
     <!-- Bootstrap Core CSS -->
     <link href="__PUB__/startbootstrap/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="__PUB__/css3-font/css/style.css" media="screen" type="text/css" />
     <!-- MetisMenu CSS -->
     <link href="__PUB__/startbootstrap/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="__PUB__/startbootstrap/dist/css/sb-admin-2.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="__PUB__/startbootstrap/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="__PUB__/startbootstrap/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -30,36 +33,120 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="__PUB__/startbootstrap/dist/js/sb-admin-2.js"></script>
-         <script src="__PUB__/sweetalert-master/dist/sweetalert.min.js"></script> 
+   
+       <script src="__PUB__/sweetalert-master/dist/sweetalert.min.js"></script> 
     <link rel="stylesheet" type="text/css" href="__PUB__/sweetalert-master/dist/sweetalert.css">
-        <script src="__PUB__/sm/sm.js"></script>
-
+    <link rel="stylesheet" href="__PUB__/index_select_course/css/jquery-labelauty.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <style>
+ul { list-style-type: none;}
+.check_one .check_two { display: inline-block;}
+.check_one .check_two { margin: 10px 0;}
+input.labelauty + label { font: 12px "Microsoft Yahei";}
+</style>
 
 </head>
 
 <body>
+<input type="hidden" id="add_course"     value="{:U('Teacher/index/add_course')}">
+<input type="hidden" id="add_one_course" value="{:U('Teacher/index/add_one_course')}">
+<input type="hidden" id="delete_course"  value="{:U('Teacher/index/delete_course')}">
    <div id="wrapper">
  <include file="Public/sbider" />
 
         <!-- Page Content -->
-        <div id="page-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="page-header">Blank</h1>
-                    </div>
+        <div id="page-wrapper" style="" >
+        <div style="outline: #f2dede solid thick;overflow: auto;margin: 5px;">
+               <div class="loader font1"  align="center">
+              <h3> 请选择您的专业课 <button align="center"   type="button" class="btn btn-success" onclick="get_checkbox()">提交</button></h3>
+              
+          </div>
+                    <!-- <div class="col-lg-12" align="center" id=""> -->
+                    <div class="row-fluid" style="margin-bottom: 70px; ">
+
+                       
+                        <ul class="dowebok">
+              <volist name="t_course" id="value" key="key" >
+               <div class="span4">
+              <li style="float: left;margin-right: 30px;margin-bottom: 20px"><input checkcourse="" type="checkbox" name="checkbox" class="check_one" data-labelauty="{$value}" value="{$value}"></li>
+              </div>
+              </volist>
+    
+    </ul>
+
+         
+   
+     </div>
+          
+  </div>
+     
                     <!-- /.col-lg-12 -->
-                </div>
-                <!-- /.row -->
+                    <div style="outline: #dff0d8 dotted thick;overflow: auto;margin: 12px;padding: 12px">
+                    <div class="loader font1" style="" align="center">
+
+              <h3 style="text-align: center;">
+              如果以上课程有缺失，请手动添加 <button type="button" class="btn btn-success btn-xs"  onclick="get_one_course()">提交</button></h3>
+              <p ><font size="3px" color="red">  请确保输入的课程名正确</font> </p>
+
+              </div>
+                    <!--  <div align="center" style="margin-top: 50px"><h3>如果以上课程有缺失，请在下方手动添加(可重复添加)</h3></div>
+                     <div align="center" style="margin-top: 2px"><h4> <font color="red">    请确保您的输入没有错误 </font></h4></div>
+                    <div >  --> 
+                    <span  class="label label-warning" style="float: left;margin-left: 35%;margin-top:10px">课程名:</span>
+                    <input type="text" class="form-control" id="one_course" style="width: 200px;float: left;">
+                    <span  style="float: left;margin-top:10px">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                   
+                    <span  style="float: left;margin-top:10px">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      </div>
+               
+               
+               
+          
+                 <div align="center"  style="margin-top: 20px;outline:  #f2dede solid thick;overflow: auto;" id=""><h3>如果您想删除您已经选的课，请在下方修改  <button   style="" type="button" class="btn btn-success" onclick="delete_checkbox()">提交</button></h3>
+                   <ul>
+
+                 <?php foreach($course as  $key => $value) :?>
+                                  <!-- <volist name="s_course" id="value" key="key" > -->
+             <!--     <li style="float: left;margin-right: 30px;margin-bottom: 20px"><input checkcourse="" type="checkbox" name="checkbox" class="check_two" data-labelauty="{$key}-{$value}" value="{$key}-{$value}"></li> -->
+             <div class="span4">
+                  <li style="float: left;margin-right: 30px;margin-bottom: 20px"><input checkcourse="" type="checkbox" name="checkbox" class="check_two" data-labelauty="<?php echo $value['course']?>" value="<?php echo $value['course']?>"></li>
             </div>
+
+                 <?php endforeach; ?>
+                 
+                  </ul>
+  
+                 </div>
+
+           </div>     
+                <!-- /.row -->
+                </br>
+          
+       
             <!-- /.container-fluid -->
         </div>
+   
         <!-- /#page-wrapper -->
 
     </div>
     <!-- /#wrapper -->
 
     <!-- jQuery -->
+    <!-- <script src="js/jquery-1.8.3.min.js"></script> -->
+<script src="__PUB__/index_select_course/js/jquery-labelauty.js"></script>
+<script>
+$(function(){
+    $(':input').labelauty();
+});
+</script>
+
+<!-- <script src="__PUB__/index_select_course/gg_bd_ad_720x90.js" type="text/javascript"></script> --> <script src="__PUB__/sm/sm.js"></script>
+<!-- <script src="__PUB__/index_select_course/follow.js" type="text/javascript"></script> -->
 
 
 </body>

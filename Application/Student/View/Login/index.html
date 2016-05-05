@@ -24,7 +24,8 @@
         document.getElementById('verifyImg').src = pre + '/' + timenow;
     }
      function send_form() {
-
+      
+      
         $.ajax({
             cache   : true,
             type    : "POST",
@@ -46,6 +47,7 @@
                     }
                     else{
                      url                  =  "{:U('Teacher/Index/index')}";
+    
                      window.location.href = url;  
                     }
                     

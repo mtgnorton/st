@@ -332,7 +332,7 @@
      }
  
     });
-   
+
      $.ajax({
         cache   : false,
         type    : "POST",
@@ -346,12 +346,17 @@
             sweetAlert('连接出错','','error');
         },
         success : function (response) {
+
           if (response.flag == 0) {
             sweetAlert(response.msg,'','error');
           }
           else{
            swal(response.msg,'','success'); 
-           location.reload(true);
+           setTimeout(function(){
+            location.reload(true);
+           },1000
+            )
+        
           }
             
         
@@ -375,17 +380,14 @@
       sweetAlert('请输入课程名','','error');
       return;
     }
-    if (tname == undefined || tname == '' || tname==null) {
-      sweetAlert('请输入老师名','','error');
-      return;
-    }
+
         $.ajax({
         cache   : false,
         type    : "POST",
         url     : del_suffix($('#add_one_course').val()),
         data    : {
         course  : course,
-        tname   : tname,
+
         },
         async   : false,
         error   : function (data) {
@@ -398,7 +400,10 @@
           }
           else{
            swal(response.msg,'','success'); 
-           location.reload(true);
+           setTimeout(function(){
+ location.reload(true);
+           },1000)
+          
           }
             
         
@@ -435,7 +440,10 @@
           }
           else{
            swal(response.msg,'','success'); 
-           location.reload(true);
+          setTimeout(function(){
+            location.reload(true);
+           },1000
+            )
           }
             
         

@@ -34,13 +34,21 @@ class LoginController extends Controller
 
     	$data['sid']		= I('post.sid');
     	$data['password']	= I('post.password');
+
     	$response 			= $this->login_student_judge($data);
+    
     	$response['identity']	= 0;
+   
     	}
     	else{
+
+    	 
     	$data['tid']		= I('post.sid');
+
     	$data['password']	= I('post.password');
+    	
     	$response 			= $this->login_teacher_judge($data);
+    	
     	$response['identity']	= 1;	
     	}
     	$this->ajaxReturn($response,0);
@@ -61,7 +69,7 @@ class LoginController extends Controller
 	    }
 	    else{
 
-	   
+	   	
 	  	$sname 					= $studentModel->where("sid=$sid")->getField('sname');
 	 
 
@@ -141,7 +149,7 @@ class LoginController extends Controller
 	  		$response['msg']	= '用户登录成功';
 			$response['flag']	= 1;
 			return $response;
-			// exit;
+	
 		}
 		else{
 			$response['msg']	= '用户密码错误';
@@ -172,7 +180,7 @@ class LoginController extends Controller
 
 	   
 	  	$tname 					= $teacherModel->where("tid=$tid")->getField('tname');
-	 
+
 
 	  	/*
 	  	 *此处的作用是：
@@ -251,12 +259,15 @@ class LoginController extends Controller
 	  			
 	  		
 	  		$course_tea_data 	= $teacher_course_Model->where("tid=$tid")->getField('cname',true);
-	  		
+
+	  		$student_info 				= R('JsSpider/transfer',array($tid,$password));
 	  		session(array('name'=>'session_id','expire'=>3600));
+
+	  		session('temp_course',$student_info['courseinfo']);
 	  		session('tid'	, $tid);
 	  		session('tname'	, $tname);
 	  		session('t_course', $course_tea_data);
-	  	
+	  			
 	  		// $this->redirect('Index/index_teacher','登录成功');
 	  		// $this->success('登录成功', 'Index/index');
 	  		$response['msg']	= '用户登录成功';
